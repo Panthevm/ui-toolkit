@@ -18,4 +18,5 @@
    :output-dir       "resources/public/js"
    :asset-path       "/js"
    :build-hooks      [(stylo.shadow/reload "resources/public/css/stylo.css")]
-   :release          {:modules {:main {:entries [ui-toolkit.components.demo]}}}}}}
+   :release          {:modules {:main {:entries [ui-toolkit.components.demo]
+                                       :init-fn ui-toolkit.components.demo/initialize}}}}}}
