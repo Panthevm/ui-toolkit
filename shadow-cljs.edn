@@ -10,7 +10,8 @@
                                        :after-load ui-toolkit.components.demo/initialize
                                        :init-fn    ui-toolkit.components.demo/initialize}}}
    :devtools         {:preloads   [re-frisk.preload]
-                      :watch-dir  "resources/public/css"}
+                      :watch-dir  "resources/public"
+                      :watch-path "/css"}
    :release          {:modules {:main {:entries [ui-toolkit.components.core]}}}}
 
   :gitpages

@@ -89,3 +89,18 @@ img, video {
   max-width: 100%;
   height: auto;
 }
+
+.ui-toolkit_components_button-8-27 {
+  border-width: 1px;
+  padding: 0.5rem;
+}
+
+.ui-toolkit_components_demo-15-17 {
+  margin: 3.0rem;
+}
+
+.ui-toolkit_components_demo-16-17 {
+  font-size: 1.875rem;
+  font-weight: 500;
+  margin-bottom: 1.0rem;
+}

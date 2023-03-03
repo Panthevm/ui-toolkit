@@ -7,3 +7,4 @@
   [attributes content]
   [:button (merge {:class (c :border [:p 2])} attributes)
    content])
+
