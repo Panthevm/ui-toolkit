@@ -12,3 +12,7 @@ run-test:
 
 release:
 	clj -M:shadow-cljs release components 
+
+gp: release
+	cp -r resources/public public
+
