@@ -13,6 +13,6 @@ run-test:
 release:
 	clj -M:shadow-cljs release components 
 
-gp: release
-	cp -r resources/public/js . && cp -r resources/public/css . && cp -r resources/public/images .
+gp:
+	clj -M:shadow-cljs release gitpages && cp -r resources/public/js . && cp -r resources/public/css . && cp -r resources/public/images .
 
