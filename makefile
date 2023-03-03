@@ -14,5 +14,5 @@ release:
 	clj -M:shadow-cljs release components 
 
 gp: release
-	cp -r resources/public public
+	cp -r resources/public/js . && cp -r resources/public/css . && cp -r resources/public/images .
 
